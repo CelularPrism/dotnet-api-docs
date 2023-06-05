@@ -22,7 +22,7 @@ public class Example
       Array.Sort(lowerWords, words, StringComparer.InvariantCulture);
       
       // Display the sorted array.
-      foreach (string word in words)
+      foreach (string word in lowerWords)
          Console.WriteLine(word);
    }
 }
@@ -37,12 +37,12 @@ public class Example
 //       الثلاثاء
 //       วันอังคาร
 //       
-//       Mardi
-//       Martes
-//       Salı
-//       Tuesday
-//       Τρίτη
-//       Вторник
+//       mardi
+//       martes
+//       salı
+//       tuesday
+//       τρίτη
+//       вторник
 //       יום שלישי
 //       الثلاثاء
 //       วันอังคาร
